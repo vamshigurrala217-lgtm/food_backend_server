@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-qi(zss1b&7=mqm1$9)%iu!&bw5x7&2w0cbi8r)qrj4ek-gi50&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.onrender.com','https://food-eight-woad.vercel.app/' ]
+ALLOWED_HOSTS = ['.onrender.com']
 
 
 # Application definition
@@ -127,4 +127,4 @@ MAILERS = {
     },
 }
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:5175/']
+CORS_ALLOWED_ORIGINS = ['http://localhost:5175/','https://food-eight-woad.vercel.app/']
